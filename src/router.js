@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Home from '@/views/Home';
-import CV from '@/views/CV';
+import EmploymentHistory from '@/views/EmploymentHistory';
 import Projects from '@/views/Projects';
 
 Vue.use(Router)
@@ -15,9 +15,9 @@ const router = new Router({
       component: Home
     },
     {
-      path: '/cv',
-      name: 'cv',
-      component: CV
+      path: '/employment-history',
+      name: 'employment-history',
+      component: EmploymentHistory
     },
     {
       path: '/projects',

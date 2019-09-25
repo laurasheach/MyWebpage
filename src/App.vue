@@ -5,7 +5,7 @@
 
     <nav>
       <button><router-link :to="{ name: 'home' }">Home <i class="fas fa-home"></i></router-link></button>
-      <button><router-link :to="{ name: 'cv'}">CV <i class="fas fa-file"></i></router-link></button>
+      <button><router-link :to="{ name: 'employment-history'}">Employment History <i class="fas fa-file"></i></router-link></button>
       <button><router-link :to="{ name: 'projects'}">Projects <i class="fas fa-briefcase"></i></router-link></button>
     </nav>
 
@@ -72,7 +72,7 @@ button {
   padding: 0px;
   background-color: #D0BCD5;
   border-radius: 10px;
-  width: 10vw;
+  width: 15vw;
   height: 2vw;
   font-size: 20px;
   font-weight: bolder;

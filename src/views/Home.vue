@@ -1,6 +1,9 @@
 <template lang="html">
 
   <div id="homepage">
+
+    <h2>Home</h2>
+
     <div class="intro">
       <p>Hello, I'm Laura Sheach and I have just completed the Professional Software Development with <a href="https://codeclan.com/">CodeClan</a> in Glasgow, Scotland. I am a quick learner and highly motivated individual with a curious mind who enjoys learning new skills and concepts, whilst collaborating with others to build solutions to problems.</p>
       <br>
