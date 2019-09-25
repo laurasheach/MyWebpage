@@ -5,6 +5,7 @@
 
     <nav>
       <button><router-link :to="{ name: 'home' }">Home <i class="fas fa-home"></i></router-link></button>
+      <button><router-link :to="{ name: 'qualifications' }">Qualifications <i class="fas fa-award"></i></router-link></button>
       <button><router-link :to="{ name: 'employment-history'}">Employment History <i class="fas fa-file"></i></router-link></button>
       <button><router-link :to="{ name: 'projects'}">Projects <i class="fas fa-briefcase"></i></router-link></button>
     </nav>

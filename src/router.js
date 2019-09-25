@@ -3,6 +3,7 @@ import Router from 'vue-router';
 import Home from '@/views/Home';
 import EmploymentHistory from '@/views/EmploymentHistory';
 import Projects from '@/views/Projects';
+import Qualifications from '@/views/Qualifications';
 
 Vue.use(Router)
 
@@ -13,6 +14,11 @@ const router = new Router({
       path: '/',
       name: 'home',
       component: Home
+    },
+    {
+      path: '/qualifications',
+      name: 'qualifications',
+      component: Qualifications
     },
     {
       path: '/employment-history',
