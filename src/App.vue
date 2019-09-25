@@ -45,21 +45,26 @@ export default {
 }
 
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  /* font-family: 'Avenir', Helvetica, Arial, sans-serif; */
+  font-family: 'Livvic', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
 }
 header {
   font-size: 50px;
-  padding: 10px;
   color: #D0BCD5;
   background-color: #181C1C;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 nav {
-  padding: 10px;
+  padding: 5px;
   background-color: #181C1C;
+  height: 10vh;
 }
 
 button {
@@ -72,6 +77,7 @@ button {
   font-size: 20px;
   font-weight: bolder;
   text-align: center;
+  font-family: 'Livvic', sans-serif;
 }
 
 button.email-button {
@@ -84,6 +90,7 @@ button.email-button {
   font-size: 20px;
   font-weight: bolder;
   text-align: center;
+  font-family: 'Livvic', sans-serif;
 }
 
 a {
@@ -102,6 +109,7 @@ a.email {
 body {
   color: #D0BCD5;
   background-color: #181C1C;
+  height: 70vh;
 }
 
 footer {
@@ -109,8 +117,9 @@ footer {
   background-color: #181C1C;
   bottom: 0;
   position: fixed;
+  height: 10vh;
   width: 100vw;
-  padding: 10px;
+  padding: 5px;
 }
 
 #contact {

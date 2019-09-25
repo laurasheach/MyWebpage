@@ -26,12 +26,10 @@ export default {
   padding: 0;
   background-color: black;
   color: #D0BCD5;
-  height: 100vh;
-  width: 100vw;
 }
 
 .intro {
-  height: 50vh;
+  height: 55vh;
   margin-left: 25vw;
   margin-right: 25vw;
   display: flex;
@@ -40,6 +38,7 @@ export default {
   align-items: center;
   text-align: justify;
   text-justify: inter-word;
+  font-size: 18px;
   /* border: 1px solid green; */
 }
 

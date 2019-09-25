@@ -1,6 +1,6 @@
 <template lang="html">
 
-  <div class="">
+  <div class="cv">
     <p>This is the CV page</p>
   </div>
 
