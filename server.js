@@ -6,5 +6,6 @@ app = express();
 app.use(serveStatic(__dirname + "/dist"));
 
 var port = process.env.PORT || 5000;
-app.listen(port);
-console.log('server started '+ port);
+app.listen(app.get ('port'), function () {
+  console.log('Node server is running on port  '+ app.get ('port'));
+});
