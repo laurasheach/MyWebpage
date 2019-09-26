@@ -14,8 +14,26 @@
         <td class="qual-institution-link"><a href="https://codeclan.com/">CodeClan</a></td>
         <td class="qual-description">
           <ul>
-            <li> Completed - Professional Software Development Course (16 weeks)</li>
+            <li>Completed - Professional Software Development Course (16 weeks)</li>
             <li>SCQF Level 8 Professional Development Award in Software Development</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>July 2002 - December 2005</td>
+        <td class="qual-institution-link"><a href="https://www.icas.com/">ICAS (Institute of Chartered of Accountants of Scotland)</a></td>
+        <td class="qual-description">
+          <ul>
+            <li>Chartered Accountant</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td>September 1998 - June 2002</td>
+        <td class="qual-institution-link"><a href="https://www.stir.ac.uk/">University of Stirling</a></td>
+        <td class="qual-description">
+          <ul>
+            <li>Bachelor of Accountancy with Honours (Second class, Upper Division)</li>
           </ul>
         </td>
       </tr>
@@ -35,7 +53,7 @@ export default {
 <style lang="css" scoped>
 
 table {
-  padding: 10px;
+  padding: 15px;
   text-align: center;
   background: none;
   margin-left: 15vw;

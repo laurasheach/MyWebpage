@@ -78,7 +78,7 @@ export default {
 <style lang="css" scoped>
 
 table {
-  padding: 10px;
+  padding: 15px;
   text-align: center;
   background: none;
   margin-left: 15vw;

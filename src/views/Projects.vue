@@ -1,7 +1,9 @@
 <template lang="html">
 
   <div class="">
-    <p>This is the PROJECTS page</p>
+
+    <p>PROJECTS</p>
+
   </div>
 
 </template>
@@ -13,4 +15,7 @@ export default {
 </script>
 
 <style lang="css" scoped>
+
+
+
 </style>

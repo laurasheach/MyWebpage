@@ -1,7 +1,10 @@
 <template>
   <div id="app">
 
-    <header>LAURA SHEACH</header>
+    <header>
+      <h1>LAURA SHEACH</h1>
+      <p class="job-title">SOFTWARE DEVELOPER</p>
+    </header>
 
     <nav>
       <button><router-link :to="{ name: 'home' }">Home <i class="fas fa-home"></i></router-link></button>
@@ -53,11 +56,12 @@ export default {
   text-align: center;
 }
 header {
-  font-size: 50px;
+  font-size: 18px;
   color: #D0BCD5;
   background-color: #181C1C;
   height: 10vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -65,7 +69,7 @@ header {
 nav {
   padding: 5px;
   background-color: #181C1C;
-  height: 10vh;
+  height: 6vh;
 }
 
 button {
