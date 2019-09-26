@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "heroku-postbuild": "echo Skip build on Heroku"
   },
   "dependencies": {
     "core-js": "^2.6.5",
@@ -15,5 +16,6 @@
     "@vue/cli-plugin-babel": "^3.11.0",
     "@vue/cli-service": "^3.11.0",
     "vue-template-compiler": "^2.6.10"
-  }
+  },
+  "heroku-run-build-script": true
 }
